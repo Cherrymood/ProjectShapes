@@ -26,6 +26,15 @@ namespace DrawingShaps
             Console.WriteLine("I am a shape with measures {0} length and {1} width", _length, _width);
         }
 
+        public virtual double CalculatePerimeter()
+        {
+
+        }
+        public virtual double CalculateArea()
+        {
+            
+        }
+
     }
 
 }
