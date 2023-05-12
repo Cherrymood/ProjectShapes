@@ -9,12 +9,18 @@ namespace DrawingShaps
         {
             _length = length;
             _width = width;
-
-            public double length
-            {
-                get { return _length; }
-            }
         }
+
+        public double length
+        {
+            get { return _length; }
+        }
+
+        public double width
+        {
+            get { return _width; }
+        }
+
     }
 
 }
