@@ -5,7 +5,7 @@ namespace DrawingShaps
         private double _length;
         private double _width;
 
-        public void Shapes(double length, double width)
+        public Shape(double length, double width)
         {
             _length = length;
             _width = width;
@@ -28,11 +28,11 @@ namespace DrawingShaps
 
         public virtual double CalculatePerimeter()
         {
-
+            return -1.0;
         }
         public virtual double CalculateArea()
         {
-            
+            return -1.0;
         }
 
     }
