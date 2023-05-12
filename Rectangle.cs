@@ -8,10 +8,19 @@ namespace DrawingShaps
             
         }
 
-        public override void ToString()
+        public override void PrintString()
         {
-            base.ToString();
-            
+            Console.WriteLine("I am a rectangle with measures {0} length and {1} width", length, width);
+        }
+
+        public override double CalculatePerimeter()
+        {
+            return (length + width) * 2;
+        }
+
+        public override double CalculateArea()
+        {
+            return length * width;
         }
     }
 }
