@@ -21,6 +21,11 @@ namespace DrawingShaps
             get { return _width; }
         }
 
+        public virtual void ToString()
+        {
+            Console.WriteLine("I am a shape with measures {0} length and {1} width", _length, _width);
+        }
+
     }
 
 }
