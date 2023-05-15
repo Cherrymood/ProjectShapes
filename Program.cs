@@ -4,17 +4,17 @@
     {
         static void Main(string[]args)
         {
-            var shape = new Shape(20, 10);
-            shape.PrintTostring("shape");
+            var shape = new Shape(20, 10, "shape");
+            shape.PrintTostring();
 
-            var rectangle = new Rectangle(25, 60);
-            rectangle.PrintTostring("rectangle");
+            var rectangle = new Rectangle(25, 60, "rectangle");
+            rectangle.PrintTostring();
 
-            var ellipse = new Ellipse(22.4, 66.9);
-            ellipse.PrintTostring("ellipse");
+            var ellipse = new Ellipse(22.4, 66.9, "ellipse");
+            ellipse.PrintTostring();
 
-            var square = new Square(15.8);
-            square.PrintTostring("square");
+            var square = new Square(15.8, "square");
+            square.PrintTostring();
 
 
         }

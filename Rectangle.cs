@@ -2,15 +2,15 @@ namespace DrawingShaps
 {
     public class Rectangle : Shape
     {
-        public Rectangle(double length, double width)
-            :base(length, width)
+        public Rectangle(double length, double width, string shape)
+            :base(length, width, shape)
         {
             
         }
 
-        public override void PrintTostring(string rectangle)
+        public override void PrintTostring()
         {
-            base.PrintTostring(rectangle);
+            base.PrintTostring();
         }
 
         public override double CalculatePerimeter()

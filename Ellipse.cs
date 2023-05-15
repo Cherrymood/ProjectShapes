@@ -2,14 +2,14 @@ namespace DrawingShaps
 {
     public class Ellipse : Shape
     {
-        public Ellipse(double SemiMajorAxes, double SemiMinorAxes)
-            :base(SemiMajorAxes,SemiMajorAxes)
+        public Ellipse(double SemiMajorAxes, double SemiMinorAxes, string shape)
+            :base(SemiMajorAxes,SemiMajorAxes, shape)
         {
             
         }
-        public override void PrintTostring(string ellipse)
+        public override void PrintTostring()
         {
-            base.PrintTostring(ellipse);
+            base.PrintTostring();
         }
 
         public override double CalculatePerimeter()
