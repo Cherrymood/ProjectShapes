@@ -8,11 +8,9 @@ namespace DrawingShaps
             
         }
 
-        public override void PrintTostring()
+        public override void PrintTostring(string rectangle)
         {
-            Console.WriteLine("I am a rectangle with measures {0} length and {1} width", length, width);
-            Console.WriteLine("My Perimetr is " + this.CalculatePerimeter());
-            Console.WriteLine("My Area is " + this.CalculateArea());
+            base.PrintTostring(rectangle);
         }
 
         public override double CalculatePerimeter()

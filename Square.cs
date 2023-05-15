@@ -7,5 +7,10 @@ namespace DrawingShaps
         {
             
         }
+
+        public override void PrintTostring(string square)
+        {
+            base.PrintTostring(square);
+        }
     }
 }

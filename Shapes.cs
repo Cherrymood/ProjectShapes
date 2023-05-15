@@ -5,6 +5,8 @@ namespace DrawingShaps
         private double _length;
         private double _width;
 
+        private string _shape;
+
         public Shape(double length, double width)
         {
             _length = length;
@@ -21,9 +23,11 @@ namespace DrawingShaps
             get { return _width; }
         }
 
-        public virtual void PrintTostring()
+        public virtual void PrintTostring(string shape)
         {
-            Console.WriteLine("I am a shape with measures {0} length and {1} width", _length, _width);
+            _shape = shape;
+
+            Console.WriteLine("I am a {0} with measures {1} length and {2} width", shape, _length, _width);
             Console.WriteLine("My Perimetr is " + this.CalculatePerimeter());
             Console.WriteLine("My Area is " + this.CalculateArea());
         }
