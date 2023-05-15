@@ -24,6 +24,8 @@ namespace DrawingShaps
         public virtual void PrintTostring()
         {
             Console.WriteLine("I am a shape with measures {0} length and {1} width", _length, _width);
+            Console.WriteLine("My Perimetr is " + this.CalculatePerimeter());
+            Console.WriteLine("My Area is " + this.CalculateArea());
         }
 
         public virtual double CalculatePerimeter()

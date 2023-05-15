@@ -10,6 +10,8 @@ namespace DrawingShaps
         public override void PrintTostring()
         {
             Console.WriteLine("I am a ellipse with measures {0} SemiMajorAxes and {1} SemiMajorAxes", length, width);
+            Console.WriteLine("My Perimetr is " + this.CalculatePerimeter());
+            Console.WriteLine("My Area is " + this.CalculateArea());
         }
 
         public override double CalculatePerimeter()
