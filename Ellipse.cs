@@ -1,7 +1,11 @@
 namespace DrawingShaps
 {
-    public class Ellips : Shape
+    public class Ellipse : Shape
     {
-
+        public Ellipse(double SemiMajorAxes, double SemiMinorAxes)
+            :base(SemiMajorAxes,SemiMajorAxes)
+        {
+            
+        }
     }
 }
