@@ -14,6 +14,12 @@
             rectangle.CalculatePerimeter();
             rectangle.PrintTostring();
 
+            var ellipse = new Ellipse(22.4, 66.9);
+            ellipse.CalculateArea();
+            ellipse.CalculatePerimeter();
+            ellipse.PrintTostring();
+
+
         }
     }
 }
