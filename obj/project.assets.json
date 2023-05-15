@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/valeriia/PycharmProjects/DrowingShapes/DrowingShapes.csproj",
-      "projectName": "DrowingShapes",
-      "projectPath": "/Users/valeriia/PycharmProjects/DrowingShapes/DrowingShapes.csproj",
+      "projectUniqueName": "/Users/valeriia/PycharmProjects/DrawingShapes/DrawingShapes/DrawingShapes.csproj",
+      "projectName": "DrawingShapes",
+      "projectPath": "/Users/valeriia/PycharmProjects/DrawingShapes/DrawingShapes/DrawingShapes.csproj",
       "packagesPath": "/Users/valeriia/.nuget/packages/",
-      "outputPath": "/Users/valeriia/PycharmProjects/DrowingShapes/obj/",
+      "outputPath": "/Users/valeriia/PycharmProjects/DrawingShapes/DrawingShapes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/valeriia/.nuget/NuGet/NuGet.Config"
