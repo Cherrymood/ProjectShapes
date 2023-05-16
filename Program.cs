@@ -27,6 +27,19 @@
             ListOfShapes.Add(square);
             ListOfShapes.Add(circle);
 
+            foreach (var item in ListOfShapes)
+            {
+                if (item == square)
+                {
+                    Console.WriteLine("I am instantiated from class Square");
+                    Console.WriteLine("Am I a Shape - {0}", (item == shape));
+                    Console.WriteLine("Am I a Rectangle - {0}", (item == rectangle));
+                    Console.WriteLine("Am I a Square - {0}", (item == square));
+                    Console.WriteLine("Am I an Ellipse - {0}", (item == ellipse));
+                    Console.WriteLine("Am I a Circle - {0}", (item == circle));
+                }
+            }
+
 
         }
     }
