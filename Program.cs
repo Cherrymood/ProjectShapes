@@ -16,6 +16,8 @@
             var square = new Square(15.8, "square");
             square.PrintTostring();
 
+            var circle = new Circle(12.5, "circle");
+
 
         }
     }

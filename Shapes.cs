@@ -5,7 +5,7 @@ namespace DrawingShaps
         private double _length;
         private double _width;
         private string _shape;
-        
+
         public Shape(double length, double width, string shape)
         {
             _length = length;

@@ -5,7 +5,7 @@ namespace DrawingShaps
         public Rectangle(double length, double width, string shape)
             :base(length, width, shape)
         {
-            
+            shape = "rectangle";
         }
 
         public override void PrintTostring()
