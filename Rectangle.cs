@@ -5,7 +5,6 @@ namespace DrawingShaps
         public Rectangle(double length, double width, string shape)
             :base(length, width, shape)
         {
-            shape = "rectangle";
         }
 
         public override void PrintTostring()
@@ -20,7 +19,7 @@ namespace DrawingShaps
 
         public override double CalculateArea()
         {
-            return length * width;
+            return Math.Round(length * width);
         }
     }
 }
