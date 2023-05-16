@@ -23,12 +23,7 @@ namespace DrawingShaps
             get { return _width; }
         }
 
-        public string shape
-        {
-            get { return _shape; }
-        }
-
-        public virtual void PrintTostring()
+        public void PrintTostring()
         {
             Console.WriteLine("I am a {0} with measures {1} length and {2} width", _shape, _length, _width);
             Console.WriteLine("My Perimetr is " + this.CalculatePerimeter());

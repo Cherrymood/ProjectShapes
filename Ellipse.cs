@@ -7,10 +7,6 @@ namespace DrawingShaps
         {
             
         }
-        public override void PrintTostring()
-        {
-            base.PrintTostring();
-        }
 
         public override double CalculatePerimeter()
         {

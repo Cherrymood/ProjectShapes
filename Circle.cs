@@ -7,11 +7,7 @@ namespace DrawingShaps
         {
 
         }
-        public override void PrintTostring()
-        {
-            base.PrintTostring();
-        }
-
+        
         public override double CalculateArea()
         {
             return Math.Round(Math.PI*(Math.Pow(length/2, 2)));

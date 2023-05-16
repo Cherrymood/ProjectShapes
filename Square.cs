@@ -8,10 +8,5 @@ namespace DrawingShaps
             
         }
 
-        public override void PrintTostring()
-        {
-            base.PrintTostring();
-        }
-
     }
 }
