@@ -2,8 +2,8 @@ namespace DrawingShaps
 {
     public class Rectangle : Shape
     {
-        public Rectangle(double length, double width, string shape)
-            :base(length, width, shape)
+        public Rectangle(double length, double width,  string name = "rectangle")
+            :base(length, width, name)
         {
         }
 
