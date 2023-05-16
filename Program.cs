@@ -20,6 +20,14 @@
             circle.PrintTostring();
 
 
+            var ListOfShapes = new List<Shape>();
+            ListOfShapes.Add(shape);
+            ListOfShapes.Add(rectangle);
+            ListOfShapes.Add(ellipse);
+            ListOfShapes.Add(square);
+            ListOfShapes.Add(circle);
+
+
         }
     }
 }
