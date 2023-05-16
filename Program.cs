@@ -17,6 +17,7 @@
             square.PrintTostring();
 
             var circle = new Circle(12.5, "circle");
+            circle.PrintTostring();
 
 
         }
