@@ -2,8 +2,8 @@ namespace DrawingShaps
 {
     public class Ellipse : Shape
     {
-        public Ellipse(double SemiMajorAxes, double SemiMinorAxes, string name = "ellipse")
-            :base(SemiMajorAxes,SemiMajorAxes, name)
+        public Ellipse(double SemiMajorAxes, double SemiMinorAxes, ShapeColor backgroundcolor, ShapeColor bordercolor, string name = "ellipse")
+            :base(SemiMajorAxes,SemiMajorAxes, backgroundcolor, bordercolor, name)
         {
             
         }

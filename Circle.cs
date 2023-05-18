@@ -2,8 +2,8 @@ namespace DrawingShaps
 {
     public class Circle : Ellipse
     {
-        public Circle(double diametr, string name = "circle")
-            :base(diametr, diametr, name)
+        public Circle(double diametr, ShapeColor backgroundcolor, ShapeColor boardcolor, string name = "circle")
+            :base(diametr, diametr, backgroundcolor, boardcolor, name)
         {
 
         }

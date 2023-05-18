@@ -4,7 +4,7 @@
     {
         static void Main(string[]args)
         {
-            var shape = new Shape(20, 10);
+            var shape = new Shape(20, 10, );
             shape.PrintTostring();
 
             var rectangle = new Rectangle(15.8, 60);
