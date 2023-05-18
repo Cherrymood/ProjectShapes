@@ -4,19 +4,19 @@
     {
         static void Main(string[]args)
         {
-            var shape = new Shape(20, 10, );
+            var shape = new Shape(20, 10, ShapeColor.Red, ShapeColor.Blue);
             shape.PrintTostring();
 
-            var rectangle = new Rectangle(15.8, 60);
+            var rectangle = new Rectangle(15.8, 60, ShapeColor.Yellow, ShapeColor.Blue);
             rectangle.PrintTostring();
 
-            var ellipse = new Ellipse(22.4, 66.9);
+            var ellipse = new Ellipse(22.4, 66.9, ShapeColor.Green, ShapeColor.Cyan);
             ellipse.PrintTostring();
 
-            var square = new Square(15.8);
+            var square = new Square(15.8, ShapeColor.Cyan, ShapeColor.Unknown);
             square.PrintTostring();
 
-            var circle = new Circle(12.5);
+            var circle = new Circle(12.5, ShapeColor.Red, ShapeColor.Magenta);
             circle.PrintTostring();
 
 
@@ -47,6 +47,15 @@
                     Console.WriteLine("Am I an Ellipse - {0}", (item == ellipse));
                     Console.WriteLine("Am I a Circle - {0}", (item == circle));
                 }
+            }
+
+            foreach (var item in ListOfShapes)
+            {
+                if ( item.BackgroundColor == ShapeColor.Red)
+                {
+                    Console.WriteLine(item.BorderColor);
+                }
+
             }
 
 

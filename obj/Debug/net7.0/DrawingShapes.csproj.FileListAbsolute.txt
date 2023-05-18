@@ -1,0 +1,15 @@
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/bin/Debug/net7.0/DrawingShapes
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/bin/Debug/net7.0/DrawingShapes.deps.json
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/bin/Debug/net7.0/DrawingShapes.runtimeconfig.json
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/bin/Debug/net7.0/DrawingShapes.dll
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/bin/Debug/net7.0/DrawingShapes.pdb
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.csproj.AssemblyReference.cache
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.AssemblyInfoInputs.cache
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.AssemblyInfo.cs
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.csproj.CoreCompileInputs.cache
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.dll
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/refint/DrawingShapes.dll
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.pdb
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/DrawingShapes.genruntimeconfig.cache
+/Users/valeriia/PycharmProjects/ProjectShapes/ProjectShapes/obj/Debug/net7.0/ref/DrawingShapes.dll
