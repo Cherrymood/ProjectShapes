@@ -2,6 +2,8 @@ namespace DrawingShaps
 {
     public class Shape
     {
+        public event EventHandler<ColorChangedEventArgs> BackgroundColorChanged; 
+        public event EventHandler<ColorChangedEventArgs> BorderColorChanged;
         private double _length;
         public double length
         {
