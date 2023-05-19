@@ -56,6 +56,11 @@ namespace DrawingShaps
             return -1.0;
         }
 
+        protected virtual void OnBackgroundColorChanged(ColorChangedEventArgs e) =>
+        BackgroundColorChanged?.Invoke(this, e);
+        protected virtual void OnBorderColorChanged(ColorChangedEventArgs e) =>
+        BorderColorChanged?.Invoke(this, e);
+
     }
 
 }
