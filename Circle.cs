@@ -3,7 +3,7 @@ namespace DrawingShaps
     public class Circle : Ellipse
     {
         
-        private readonly double radius;
+        public readonly double radius;
 
         public Circle(double diametr, ShapeColor backgroundcolor, ShapeColor boardcolor, string name = "circle")
             :base(diametr, diametr, backgroundcolor, boardcolor, name)

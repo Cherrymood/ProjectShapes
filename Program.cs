@@ -38,7 +38,7 @@
                     Console.WriteLine("Am I an Ellipse - {0}", (item == ellipse));
                     Console.WriteLine("Am I a Circle - {0}", (item == circle));
                 }
-                if (item == rectangle)
+                else if (item == rectangle)
                 {
                     Console.WriteLine("I am instantiated from class Rectangle");
                     Console.WriteLine("Am I a Shape - {0}", (item == shape));
@@ -46,6 +46,15 @@
                     Console.WriteLine("Am I a Square - {0}", (item == square));
                     Console.WriteLine("Am I an Ellipse - {0}", (item == ellipse));
                     Console.WriteLine("Am I a Circle - {0}", (item == circle));
+                }
+                else if (item == circle)
+                {
+                    Console.WriteLine("I am instantiated from class Circle");
+                    Console.WriteLine("Am I a Shape - {0}", (item == shape));
+                    Console.WriteLine("Am I a Rectangle - {0}", (item == rectangle));
+                    Console.WriteLine("Am I a Square - {0}", (item == square));
+                    Console.WriteLine("Am I an Ellipse - {0}", (item == ellipse));
+                    Console.WriteLine("Am I a Circle - {0}, with radius {1}", (item == circle), circle.radius);
                 }
             }
 
