@@ -68,10 +68,6 @@
                 {
                    Console.WriteLine(item.length);
                 }
-                else if ( item.BackgroundColor == ShapeColor.Yellow)
-                {
-                   item.ToString();
-                }
 
             }
 
