@@ -55,6 +55,14 @@
                 {
                     Console.WriteLine(item.BorderColor);
                 }
+                else if ( item.BackgroundColor == ShapeColor.Green)
+                {
+                   Console.WriteLine(item.length);
+                }
+                else if ( item.BackgroundColor == ShapeColor.Yellow)
+                {
+                   item.ToString();
+                }
 
             }
 
