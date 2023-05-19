@@ -18,16 +18,24 @@ namespace DrawingShaps
         
         private ShapeColor _BackgroundColor;
         public ShapeColor BackgroundColor
-        {
+        {            
             get { return _BackgroundColor; }
-            set { BackgroundColor = value; }
+            set { if (_BackgroundColor != value)
+                    {
+                        _BackgroundColor = value;
+                    }
+                }
         }
 
         private ShapeColor  _BorderColor;
         public ShapeColor BorderColor
         {
             get { return _BorderColor; }
-            set { BorderColor = value; }
+            set { if (_BorderColor != value)
+                    {
+                        _BorderColor = value;
+                    }
+                }
         }
 
 
