@@ -1,0 +1,15 @@
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/bin/Debug/net7.0/ArcadeGameCafe
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/bin/Debug/net7.0/ArcadeGameCafe.deps.json
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/bin/Debug/net7.0/ArcadeGameCafe.runtimeconfig.json
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/bin/Debug/net7.0/ArcadeGameCafe.dll
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/bin/Debug/net7.0/ArcadeGameCafe.pdb
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.csproj.AssemblyReference.cache
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.AssemblyInfoInputs.cache
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.AssemblyInfo.cs
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.csproj.CoreCompileInputs.cache
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.dll
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/refint/ArcadeGameCafe.dll
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.pdb
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ArcadeGameCafe.genruntimeconfig.cache
+/Users/valeriia/PycharmProjects/ArcadeGameCafe/obj/Debug/net7.0/ref/ArcadeGameCafe.dll
