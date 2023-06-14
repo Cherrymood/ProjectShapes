@@ -7,5 +7,6 @@ namespace ArcadeGameCafe
        Coffee coffeemenue = new Coffee();
 
        FoodandToppings foodToppings = new FoodandToppings();
+
     }
 }
