@@ -2,7 +2,11 @@ namespace ArcadeGameCafe
 {
     public class Menue
     {
-        private Dictionary<string, double> _menue = new Dictionary<string, double>()
+        private Dictionary<string, double> _menue;
+
+        public Dictionary<string, double> menue
+        {
+            set {_menue = new Dictionary<string, double>()
         {
             {"Americano", 2.30},
             {"Latte", 3.20},
@@ -16,6 +20,10 @@ namespace ArcadeGameCafe
             {"Chocolate topings", 1.05},
             {"Caramel topings", 1.02},
             {"Vanilla topings", 0.97}
-        };
+
+        };}
+            get {return _menue;}
+        }
+        private int billtoPAy;
     }
 }
