@@ -3,6 +3,7 @@ namespace ArcadeGameCafe
     public class Menue
     {
         private Dictionary<string, double> _menue;
+        
 
         public Dictionary<string, double> menue
         {
@@ -24,6 +25,5 @@ namespace ArcadeGameCafe
         };}
             get {return _menue;}
         }
-        private int billtoPAy;
     }
 }
