@@ -3,9 +3,9 @@ namespace ArcadeGameCafe
     interface IPlayer
     {
         public string TakeOrder();
-        public void PrepareOrder();
+        public double PrepareOrder(string key);
         public void GiveOrderToCustomer();
-        public int TakeMoney();
+        public double TakeMoney(string _key);
         public void CleanUp();
     }
 }

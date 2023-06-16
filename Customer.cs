@@ -22,12 +22,14 @@ namespace ArcadeGameCafe
 
             return (_key, IsWaitingtimeOn = true);
         }
-        /*
-        how this method can get the return thing from the method in the other class???*/
-        
-        public bool GottheOrder()
+        public bool GottheOrder(bool IsOrderRady)
         {
-            return IsWaitingtimeOn = false;
+            if (IsOrderRady)
+            {
+                return IsWaitingtimeOn = false;
+            }
+
+            return IsWaitingtimeOn = true;
         }
 
         public double PayBill(string _key)
