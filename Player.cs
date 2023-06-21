@@ -2,7 +2,7 @@ namespace ArcadeGameCafe
 {
     public class Player : IPlayer
     {
-        private bool IsOrderRady = false;
+        private bool IsOrderReady = false;
         private bool IsgiveOrder;
         
         public void TakeOrder(string _key)
@@ -18,14 +18,16 @@ namespace ArcadeGameCafe
             {
                 i++;
             }
-            
-            return IsOrderRady = true;
+
+            return IsOrderReady = true;
         }
-        public void GiveOrderToCustomer(bool IsOrderRady)
+        public void GiveOrderToCustomer(bool IsOrderRady, string _key)
         {
-
+            if (IsOrderReady)
+            {
+                Console.WriteLine("The order is ready. Here is your {0}", _key);
+            }
         }
-
 
         public double TakeMoney(string _key);
         public void CleanUp();

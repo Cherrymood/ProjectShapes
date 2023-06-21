@@ -4,7 +4,7 @@ namespace ArcadeGameCafe
     {
         public string TakeOrder();
         public double PrepareOrder(string key);
-        public void GiveOrderToCustomer();
+        public void GiveOrderToCustomer(bool IsOrderRady, string key);
         public double TakeMoney(string _key);
         public void CleanUp();
     }

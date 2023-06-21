@@ -4,8 +4,8 @@ namespace ArcadeGameCafe
     {
         public void Enter();
         public (string, bool) MakeOrder();
-        public bool GottheOrder(bool IsOrderRady);
-        public double PayBill(string name);
+        public bool GottheOrder(bool IsOrderReady);
+        public double PayBill(string name, bool IsOrderReady);
         public void GoOut();
         public void Wait();
     }

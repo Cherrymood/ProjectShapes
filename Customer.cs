@@ -22,9 +22,9 @@ namespace ArcadeGameCafe
 
             return (_key, IsWaitingtimeOn = true);
         }
-        public bool GottheOrder(bool IsOrderRady)
+        public bool GottheOrder(bool IsOrderReady)
         {
-            if (IsOrderRady)
+            if (IsOrderReady)
             {
                 return IsWaitingtimeOn = false;
             }
@@ -32,11 +32,15 @@ namespace ArcadeGameCafe
             return IsWaitingtimeOn = true;
         }
 
-        public double PayBill(string _key)
+        public double PayBill(string _key, bool IsOrderReady)
         {
-            var newmenue = new Menue();
+            if (IsOrderReady)
+            {
+                var newmenue = new Menue();
             var _bill = newmenue.menue.GetValueOrDefault(_key);
             return _bill;
+            }
+            return 0;
         }
 
         public void GoOut()
